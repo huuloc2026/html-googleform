@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Submit Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Liên Hệ</h2>
+      <form id="contactForm">
+        <input
+          type="text"
+          id="name"
+          placeholder="Tên của bạn"
+          value="Huu Loc"
+          required
+        />
+        <input type="email" id="email" placeholder="Email của bạn"
+        value="example@gmail.com" required" />
+        <textarea id="message" rows="4" placeholder="Tin nhắn của bạn" required>
+Xin chào, tôi cần hỗ trợ!</textarea
+        >
+        <button type="submit">Gửi</button>
+      </form>
+      <!-- <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfxWZY838bCEA_JPzkYopbnKe-JKHHnZfJ2O1uZn-ehz8doxw/viewform?usp=dialog"
+        width="640"
+        height="955"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        >Loading…</iframe
+      > -->
+
+      <!-- <form id="contactForm">
+        <input type="text" id="name" placeholder="Tên của bạn" required />
+        <input type="email" id="email" placeholder="Email của bạn" required />
+        <textarea
+          id="message"
+          rows="4"
+          placeholder="Tin nhắn của bạn"
+          required
+        ></textarea>
+        <button type="submit">Gửi</button>
+      </form> -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
