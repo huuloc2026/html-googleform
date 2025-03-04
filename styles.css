@@ -1,88 +1,364 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Arial", sans-serif;
+  margin-left: 0;
 }
-
 body {
   display: flex;
+}
+body {
   justify-content: center;
+}
+body {
   align-items: center;
+}
+body {
   height: 100vh;
-  padding: 20px;
+}
+body {
+  padding-left: 0.208333333in;
+}
+body {
+  padding-bottom: 0.208333333in;
+}
+input:focus {
+  border-left-color: #28a745;
+}
+body {
+  padding-right: 0.208333333in;
+}
+body {
+  padding-top: 0.208333333in;
+}
+body {
   background: linear-gradient(135deg, #e0f7fa, #80deea);
 }
-
-.form-container {
-  background: white;
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-  max-width: 420px;
-  width: 100%;
-  text-align: center;
-  transition: transform 0.3s ease-in-out;
+h2 {
+  margin-bottom: 0.9375pc;
 }
-
+h2 {
+  color: #333;
+}
+textarea,
+input {
+  width: 100%;
+}
+input,
+textarea {
+  margin-top: 0.125in;
+}
+textarea,
+input {
+  padding-left: 0.125in;
+}
+textarea,
+input {
+  padding-bottom: 0.125in;
+}
+input,
+textarea {
+  padding-right: 0.125in;
+}
+textarea,
+input {
+  padding-top: 0.125in;
+}
+[class~="form-container"] {
+  background: white;
+}
+* {
+  margin-bottom: 0;
+}
 .form-container:hover {
   transform: translateY(-3px);
 }
-
-h2 {
-  margin-bottom: 15px;
-  color: #333;
+input {
+  border-left-width: 0.010416667in;
 }
-
+input {
+  border-bottom-width: 0.010416667in;
+}
+input {
+  border-right-width: 0.010416667in;
+}
+input {
+  border-top-width: 0.010416667in;
+}
+input:focus {
+  border-bottom-color: #28a745;
+}
+input {
+  border-left-style: solid;
+}
+* {
+  margin-right: 0;
+}
+input:focus {
+  border-right-color: #28a745;
+}
+input {
+  border-bottom-style: solid;
+}
+[class~="form-container"] {
+  padding-left: 0.260416667in;
+}
+input {
+  border-right-style: solid;
+}
+[class~="form-container"] {
+  padding-bottom: 0.260416667in;
+}
+[class~="form-container"] {
+  padding-right: 0.260416667in;
+}
+input {
+  border-top-style: solid;
+}
+input {
+  border-left-color: #ccc;
+}
+[class~="form-container"] {
+  padding-top: 0.260416667in;
+}
+input:focus {
+  border-top-color: #28a745;
+}
+input {
+  border-bottom-color: #ccc;
+}
+* {
+  margin-top: 0;
+}
+input {
+  border-right-color: #ccc;
+}
+input {
+  border-top-color: #ccc;
+}
+input {
+  border-image: none;
+}
 input,
 textarea {
-  width: 100%;
-  margin-top: 12px;
-  padding: 12px;
-  border: 1px solid #ccc;
   border-radius: 6px;
-  font-size: 16px;
+}
+textarea,
+input {
+  font-size: 1pc;
+}
+input,
+textarea {
   transition: all 0.2s;
 }
-
+input:focus {
+  outline: none;
+}
+textarea {
+  border-left-width: 0.010416667in;
+}
+textarea {
+  border-bottom-width: 0.010416667in;
+}
+textarea {
+  border-right-width: 0.010416667in;
+}
+[class~="form-container"] {
+  border-radius: 7.5pt;
+}
+textarea {
+  border-top-width: 0.010416667in;
+}
+textarea {
+  border-left-style: solid;
+}
+textarea {
+  border-bottom-style: solid;
+}
+textarea {
+  border-right-style: solid;
+}
+textarea {
+  border-top-style: solid;
+}
+textarea {
+  border-left-color: #ccc;
+}
 input:focus,
 textarea:focus {
-  border-color: #28a745;
-  outline: none;
-  box-shadow: 0px 0px 8px rgba(40, 167, 69, 0.3);
+  box-shadow: 0pc 0pt 6pt rgba(40, 167, 69, 0.3);
 }
-
-button {
+textarea {
+  border-bottom-color: #ccc;
+}
+textarea {
+  border-right-color: #ccc;
+}
+textarea {
+  border-top-color: #ccc;
+}
+textarea {
+  border-image: none;
+}
+button,
+[class~="form-container"] {
   width: 100%;
-  margin-top: 15px;
-  padding: 12px;
-  border: none;
-  border-radius: 6px;
-  font-size: 18px;
+}
+button {
+  margin-top: 11.25pt;
+}
+* {
+  padding-left: 0;
+}
+button {
+  padding-left: 0.125in;
+}
+* {
+  padding-bottom: 0;
+}
+button {
+  padding-bottom: 0.125in;
+}
+button {
+  padding-right: 0.125in;
+}
+textarea:focus {
+  border-left-color: #28a745;
+}
+textarea:focus {
+  border-bottom-color: #28a745;
+}
+button {
+  padding-top: 0.125in;
+}
+button {
+  border-left-width: medium;
+}
+button {
+  border-bottom-width: medium;
+}
+[class~="form-container"] {
+  box-shadow: 0px 0.3125pc 15px rgba(0, 0, 0, 0.2);
+}
+button {
+  border-right-width: medium;
+}
+button {
+  border-top-width: medium;
+}
+button {
+  border-left-style: none;
+}
+button {
+  border-bottom-style: none;
+}
+button {
+  border-right-style: none;
+}
+button {
+  border-top-style: none;
+}
+* {
+  padding-right: 0;
+}
+button {
+  border-left-color: currentColor;
+}
+[class~="form-container"] {
+  max-width: 315pt;
+}
+textarea:focus {
+  border-right-color: #28a745;
+}
+button {
+  border-bottom-color: currentColor;
+}
+button {
+  border-right-color: currentColor;
+}
+button {
+  border-top-color: currentColor;
+}
+button {
+  border-image: none;
+}
+button {
+  border-radius: 0.375pc;
+}
+button {
+  font-size: 1.125pc;
+}
+button {
   font-weight: bold;
+}
+button {
   background: #28a745;
+}
+button {
   color: white;
+}
+* {
+  padding-top: 0;
+}
+button {
   cursor: pointer;
+}
+button {
   transition: background 0.3s, transform 0.2s;
 }
-
+textarea:focus {
+  border-top-color: #28a745;
+}
+textarea:focus {
+  outline: none;
+}
 button:hover {
   background: #218838;
+}
+[class~="form-container"] {
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+button:hover {
   transform: scale(1.05);
 }
-
+[class~="form-container"] {
+  transition: transform 0.3s ease-in-out;
+}
+* {
+  font-family: "Arial", sans-serif;
+}
 @media (max-width: 480px) {
   body {
     height: auto;
-    padding: 30px 10px;
   }
-
-  .form-container {
+  [class~="form-container"] {
     max-width: 100%;
-    padding: 20px;
   }
-
+  [class~="form-container"] {
+    padding-left: 0.208333333in;
+  }
+  [class~="form-container"] {
+    padding-bottom: 0.208333333in;
+  }
+  body {
+    padding-left: 7.5pt;
+  }
+  body {
+    padding-bottom: 22.5pt;
+  }
+  [class~="form-container"] {
+    padding-right: 0.208333333in;
+  }
+  body {
+    padding-right: 7.5pt;
+  }
+  body {
+    padding-top: 22.5pt;
+  }
   button {
-    font-size: 16px;
+    font-size: 12pt;
+  }
+  [class~="form-container"] {
+    padding-top: 0.208333333in;
   }
 }
