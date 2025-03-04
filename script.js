@@ -11,6 +11,7 @@ document
       "https://docs.google.com/forms/u/0/d/e/1FAIpQLSfxWZY838bCEA_JPzkYopbnKe-JKHHnZfJ2O1uZn-ehz8doxw/formResponse";
 
     const params = new URLSearchParams();
+    console.log(params);
     params.append("entry.2005620554", name);
     params.append("entry.802662662", message);
     params.append("entry.1422570857", email);
