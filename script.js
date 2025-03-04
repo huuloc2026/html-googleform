@@ -23,6 +23,7 @@ document
       body: params,
     })
       .then(() => {
+        alert("Gửi thành công!");
         document.getElementById("contactForm").reset();
       })
       .catch((error) => {
